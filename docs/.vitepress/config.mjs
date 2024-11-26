@@ -5,12 +5,13 @@ export default defineConfig({
   base: '/typescript/',
   title: 'TypeScript',
   description: 'JavaScript 的超集',
+  head: [['link', { rel: 'icon', href: '/typescript/logo.svg' }]],
   cleanUrls: true,
   ignoreDeadLinks: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'logo.svg',
+    logo: '/logo.svg',
 
     outline: { label: '本页目录', level: [2, 3] },
     sidebarMenuLabel: '菜单',
