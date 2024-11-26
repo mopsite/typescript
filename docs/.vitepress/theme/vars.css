@@ -1,0 +1,20 @@
+:root {
+  --c-1: #2570c1;
+  --c-2: #3382d7;
+  --c-3: #4794e6;
+  --c-soft: #d33e7e24;
+}
+
+.dark {
+  --c-1: #f0c63d;
+  --c-2: #d7b033;
+  --c-3: #c19c25;
+  --c-soft: #f4ba3e24;
+}
+
+:root {
+  --vp-c-brand-1: var(--c-1);
+  --vp-c-brand-2: var(--c-2);
+  --vp-c-brand-3: var(--c-3);
+  --vp-c-brand-soft: var(--c-soft);
+}
