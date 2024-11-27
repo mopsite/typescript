@@ -30,25 +30,3 @@ features:
     icon: 📚
     details: TypeScript 提供最新的和不断发展的 JavaScript 特性，包括哪些来自 2015 年的 ECMAScript 和未来的提案中的特性，以帮助建立壮健的组件。
 ---
-
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #f0c330 5%, #3b99d9 75%);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #f0c330 50%, #3b99d9 50%);
-  --vp-home-hero-image-filter: blur(40px);
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(72px);
-  }
-}
-</style>
